@@ -6,11 +6,11 @@
 
   <groupId>br.edu.uninassau</groupId>
   <artifactId>ArtDigital</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>war</packaging>
 
   <name>ArtDigital Maven Webapp</name>
-  <url>http://www.example.com</url>
+  <url>https://artdigital.danielmrcl.dev</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,20 +32,9 @@
 	    <scope>test</scope>
 	</dependency>
 	<dependency>
-	    <groupId>com.h2database</groupId>
-	    <artifactId>h2</artifactId>
-	    <version>2.1.210</version>
-	    <scope>test</scope>
-	</dependency>
-	<dependency>
 	    <groupId>org.hibernate</groupId>
 	    <artifactId>hibernate-core</artifactId>
 	    <version>5.6.5.Final</version>
-	</dependency>
-	<dependency>
-		<groupId>com.h2database</groupId>
-		<artifactId>h2</artifactId>
-		<version>2.2.224</version>
 	</dependency>
 	<dependency>
 	    <groupId>org.apache.tomcat</groupId>
@@ -87,6 +76,11 @@
 		<groupId>com.fasterxml.jackson.datatype</groupId>
 		<artifactId>jackson-datatype-jsr310</artifactId>
 		<version>2.16.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+		<version>42.7.5</version>
 	</dependency>
   </dependencies>
 
